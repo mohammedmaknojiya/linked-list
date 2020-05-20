@@ -1,0 +1,24 @@
+there are two methods
+
+#https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
+
+1- use hash map to store all visited node 
+and every time we check that our current node is there in the hash or not 
+if yes then its loop
+here time and space both are O(n)
+
+this method will not work for repeated elements in the list
+
+
+
+2- use floyds method 
+
+for explaination see video in article
+
+isma ham 2 pointer p and q ka use karta hai 
+p ki speed 1 hai means wo ek step sa hamehsa aga badha ga
+q ki speed 2 hai means wo hamesha 2 step sa aga badha ga
+
+
+according to this algo agar ek ki speed dusra sa double hai and LOOP PRESENT HAI then definetly they will meet at one point.
+
