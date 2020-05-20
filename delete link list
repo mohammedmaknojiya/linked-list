@@ -1,0 +1,19 @@
+#https://www.geeksforgeeks.org/write-a-function-to-delete-a-linked-list/
+
+
+In Java, automatic garbage collection happens, so deleting a linked list is easy. We just need to change head to null.
+
+In python and other language it is not the case
+
+refer prog
+
+
+while curr ---> null:
+  
+  next=curr-->next
+  del curr-->data
+  curr=next
+  
+  
+repeat till we reach null means end of list
+  
