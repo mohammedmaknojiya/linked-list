@@ -1,0 +1,23 @@
+#https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+
+you can do it by above method in O(N) time and O(1) extra space
+
+but if you want to use stack concept then space becomes O(K)
+
+where k is the group size for reversing 
+
+because stack size is that much of the group size
+
+#https://www.geeksforgeeks.org/reverse-linked-list-groups-given-size-set-2/?ref=rp
+
+follow this article 
+
+explaination
+
+means usna pehla ek empty stack liya 
+then usme agar k=3 hai tab 3 element dala
+then ab usna 1 ele ko pop kiya 
+usko node me conert kiya kyu ki wo as a int list me store tha
+now ab usna prev var ko check kiya 
+agar wo none hai to prev=node and head=prev
+isi trah wo prev and head ko update karta gaya and end me usna head ka addr return kardiya 
