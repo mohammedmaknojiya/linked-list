@@ -1,0 +1,16 @@
+#https://www.geeksforgeeks.org/function-to-check-if-a-singly-linked-list-is-palindrome/
+
+
+there are two methods
+
+1- using stacks
+
+space O(n) and time O(N)
+for this refer geeks for geeks
+
+2- by reversing from middle 
+
+Space O(1) and O(n)
+
+for this refer https://www.youtube.com/watch?v=oZuR2-AKkXE
+
