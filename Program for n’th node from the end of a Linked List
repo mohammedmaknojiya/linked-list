@@ -1,0 +1,12 @@
+#https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+follow this link
+
+follow only first method 
+
+hear recording too for explaination
+
+
+
+Method 1 (Use length of linked list)
+1) Calculate the length of Linked List. Let the length be len.
+2) Print the (len – n + 1)th node from the beginning of the Linked List.
