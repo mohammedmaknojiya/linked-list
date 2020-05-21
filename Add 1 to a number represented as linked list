@@ -1,0 +1,73 @@
+#https://www.geeksforgeeks.org/add-1-number-represented-linked-list/
+
+let number = 1999 
+then when we add 1 it becomes 2000
+
+now linked list is 1---9---9----9--null
+
+now because add is done from left most bit hence we reverse the linked list
+
+9---9----9----1---null
+
+now we traverse the list node by node and add 1 
+
+now if nodedata+1 >=10:
+hence we have to update the node data to 0 and carry =1 
+
+now agar no aisa hai 1998
+then after reverse wo 8--9---9---1--null   hojaya ga
+
+now 8+1=9 not greater than or equal to 10 hence we stop the loop break and we simply return 1999 by applying reverse
+
+but jab tak carry ata jaya ga tab tak ham traverse karta jaya ga
+
+now ab aisa case bhi hosakta hai ki linked list 99 +1 ki ho tab
+
+
+9-----9-----null
+
+step 1
+
+9+1>=10  
+sum vlaue = sum % 10    hence carry=1
+
+node--data = sum value
+
+step 2
+9+1>=10  
+sum vlaue = sum % 10    hence carry=1
+
+node--data = sum value
+
+now after completing the linked list carry is still 1  because 99+1=100 
+2 digit converted to three digit hence we have to add one node
+at the end of linked list 
+
+hence make node = carry value , None
+
+at this thing at the end of linked list and reverse that
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
